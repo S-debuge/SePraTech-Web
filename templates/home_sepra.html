@@ -1,0 +1,438 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Freelancer Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="{% static 'main.css' %}">
+</head>
+<body>
+  
+</div>
+
+
+<header>
+  <nav class="navbar">
+    <div href="#home" class="logo">SePra Tech</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#why">Why Choose Us</a></li>
+      <li><a href="#service">Services</a></li>
+      <li><a href="#pro">Projects</a></li>
+      <li><a href="#cont">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-left">
+    <h1><span class="highlight">SePra Tech</span><br> A Creative Web Developers Team</h1>
+    <p>We design and build modern, responsive websites with stunning visuals and smooth user experiences.</p>
+    <div class="hero-buttons">
+      <a href="#pro" class="btn">See Work</a>
+      <a href="#cont" class="btn-outline">Contact Us</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img src="{% static 'home.png' %}" alt="Hero Image">
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+  <img src="{% static 'team.png' %}" alt="Team Image">
+  <div class="about-content">
+    <h2>About Us</h2>
+    <h3>Who We Are</h3>
+    <p>SePra Tech is a forward-thinking digital solutions company dedicated to turning ideas into innovative and effective digital experiences. We combine creativity, technology, and strategy to help businesses grow and succeed online.</p>
+    <h2>Key Highlights</h2>
+    <p>Experts in design, development, and digital strategy</p>
+    <p>Deliver innovative and scalable solutions</p>
+    <p>Focus on user-friendly and results-driven projects</p>
+    <p>Provide seamless support throughout the project</p>
+    <p>Committed to helping businesses achieve online success</p>
+    <a href="#why" class="btn">READ MORE →</a>
+  </div>
+</section>
+
+<!-- Why Choose Us Section -->
+<section id="why" class="why-choose-us">
+  <div class="choose-left">
+    <h2>Why Choose Us</h2>
+    <p>Selecting the correct partner can have a significant impact, and at SePra Tech, we offer more than just services; we also craft experiences that support your objectives. 
+       The outcomes speak for themselves because every project is meticulously planned, imaginatively completed, and totally focused on your goals.  We ensure that you feel secure at every turn by fostering trust via open communication, integrity, and commitment. </p>
+    <p> Since we are passionate about your success, we base everything we do on quality, innovation, and value.  You get more than just a freelancer when you work with us; you get a dedicated partner who helps you stand out, builds your brand, and supports your growth.</p>
+  </div>
+  <div class="choose-right">
+    <div class="card">
+      <div class="icon"><i class="fas fa-lightbulb"></i></div>
+      <h3>Strategy & Research</h3>
+      <p>Trust First – Build long-term relationships through open communication, integrity, and commitment.</p>
+        <p>Partner, Not Freelancer – Deliver strategic value that grows your brand and drives measurable results.</p>
+      <p>Innovation & Quality – Creative, meticulously executed projects that make a real impact.
+</p>
+    </div>
+    <div class="card">
+      <div class="icon"><i class="fas fa-desktop"></i></div>
+      <h3>Design & Development</h3>
+      <p>Creative & Unique: Designs that fit your brand perfectly.</p>
+      <p>Modern Tech: Fast, secure, and future-ready solutions.</p>
+      <p>User-Focused: Smooth experience that engages & converts.</p>
+      <p>Complete Support: From idea to launch, we’ve got you covered.</p>
+    </div>
+    <div class="card">
+      <div class="icon"><i class="fas fa-gem"></i></div>
+      <h3>Management & Marketing</h3>
+      <p>Strategic Planning: Streamlined operations & targeted campaigns.</p>
+      <p>Goal-Oriented: Drive measurable results for your business</p>
+      <p>Team Collaboration: Coordinated efforts for maximum impact.</p>
+      <p>Continuous Support: Guidance from start to finish.</p> 
+    </div>
+    <div class="card">
+      <div class="icon"><i class="fas fa-check-circle"></i></div>
+      <h3>Analysing & Checking</h3>
+      <p>Data-Driven Insights: Understand trends and patterns clearly</p>
+      <p>Performance Tracking: Monitor results for smarter decisions</p>
+      <p>Problem Detection: Identify issues before they escalate.</p>
+      <p>Continuous Improvement: Optimize processes for better outcomes.</p>
+
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills-section">
+  <div class="skills-content">
+    <h2 class="section-title">Our Skills</h2>
+    <p class="section-description">
+      We are a team of creative professionals with a passion for digital innovation. Our expertise spans across multiple disciplines.
+    </p>
+    <div class="skill-bar-container">
+      <div class="skill-bar">
+        <span class="skill-name">Web Development</span>
+        <div class="bar-wrapper"><div class="bar" style="width:95%"></div><span class="level-percent">95%</span></div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">Graphic Design</span>
+        <div class="bar-wrapper"><div class="bar" style="width:90%"></div><span class="level-percent">90%</span></div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">Flutter Development</span>
+        <div class="bar-wrapper"><div class="bar" style="width:92%"></div><span class="level-percent">92%</span></div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">UI/UX Design</span>
+        <div class="bar-wrapper"><div class="bar" style="width:88%"></div><span class="level-percent">88%</span></div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">python development</span>
+        <div class="bar-wrapper"><div class="bar" style="width:88%"></div><span class="level-percent">88%</span></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="skills-image-wrapper">
+    <img src="{% static 'overskills.png' %}" alt="Team working on a project" class="skills-image">
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="service" class="services-section">
+  <div class="container">
+    <header class="services-header">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-description">We provide high-quality services designed to help your business grow.</p>
+    </header>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="icon-container"><i class="fa-solid fa-globe"></i><span class="service-number">06</span></div>
+        <h3 class="service-title">Web Development 🌐</h3>
+        <p class="service-description">Responsive and user-friendly websites</p>
+        <p class="service-description">Custom business websites & e-commerce solutions</p>
+        <p class="service-description">Secure and scalable backend systems</p>
+      </div>
+      <div class="service-card">
+        <div class="icon-container"><i class="fa-solid fa-photo-film"></i><span class="service-number">01</span></div>
+        <h3 class="service-title">UI/UX Design 🎨</h3>
+        <p class="service-description"> Modern, creative, and user-focused designs.</p>
+        <p class="service-description"> Wireframing & prototyping.</p>
+        <p class="service-description"> Mobile and web app interface design.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon-container"><i class="fa-solid fa-mobile"></i><span class="service-number">02</span></div>
+        <h3 class="service-title">Mobile App Development 📱</h3>
+        <p class="service-description">Android & iOS app development.</p>
+        <p class="service-description">Cross-platform apps using Flutter.</p>
+        <p class="service-description">App maintenance and updates.</p>
+      </div>
+       <div class="service-card">
+        <div class="icon-container"><i class="fa-solid fa-robot"></i><span class="service-number">06</span></div>
+        <h3 class="service-title">Python Development & AI Solutions 🤖</h3>
+        <p class="service-description">Custom Python applications.</p>
+        <p class="service-description">Data-driven tools and automation.</p>
+        <p class="service-description">AI/ML-based projects.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon-container"><i class="fa-solid fa-chart-line"></i><span class="service-number">01</span></div>
+        <h3 class="service-title">Digital Marketing & SEO 📈</h3>
+        <p class="service-description">Social media marketing & branding.</p>
+        <p class="service-description">SEO optimization for better visibility.</p>
+        <p class="service-description">Content and campaign management.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon-container"><i class="fa-solid fa-tachograph-digital"></i><span class="service-number">02</span></div>
+        <h3 class="service-title">Graphic Design & Branding 🖌️</h3>
+        <p class="service-description">Logo and brand identity design.</p>
+        <p class="service-description">Business cards, posters, and brochures.</p>
+        <p class="service-description">Social media graphics.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<div id="pro" class="container card-container">
+  <h2>SePra Tech Projects</h2>
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="project-card-item">
+        <img src="{%static 'Ewood.png'%}" alt="Project 1">
+        <div class="project-overlay">
+          <h3>woodfurnished by SePraTech</h3>
+          <p>E-commerce website built with Django with modern UI/UX design. </p>
+          <div class="d-flex gap-3">
+            <a href="#cont" class="btn btn-contact">Contact Us</a>
+            <a href="https://woodfurnished.pythonanywhere.com/" target="_blank" class="btn btn-preview">Live Preview</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="project-card-item">
+        <img src="{%static 'educryst.png'%}" alt="Project 2">
+        <div class="project-overlay">
+          <h3>Educryst Education Web UI</h3>
+          <p>Modern responsive website design with animations and interactive features.</p>
+          <div class="d-flex gap-3">
+            <a href="#cont" class="btn btn-contact">Contact Us</a>
+            <a href="https://educryst.pythonanywhere.com/" target="_blank" class="btn btn-preview">Live Preview</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<section class="contact-section" id="cont">
+  <h2 class="contact-title">📬 Get in Touch</h2>
+  <form method="POST" action="{% url 'contact' %}" class="contact-form">
+    {% csrf_token %}
+    
+    <div class="input-group">
+      <input type="text" name="name" required>
+      <label>Your Name</label>
+    </div>
+    
+    <div class="input-group">
+      <input type="email" name="email" required>
+      <label>Email Address</label>
+    </div>
+    
+    <div class="input-group">
+      <input type="text" name="subject" required>
+      <label>Subject</label>
+    </div>
+    
+    <div class="input-group">
+      <textarea name="message" rows="4" required></textarea>
+      <label>Your Message</label>
+    </div>
+    
+    <button type="submit" class="btn-send">Send Message 🚀</button>
+  </form>
+</section>
+
+<!-- ✅ Toast Notifications -->
+{% if messages %}
+  <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 1100;">
+    {% for message in messages %}
+      <div class="toast align-items-center text-bg-{{ message.tags|default:'primary' }} border-0 show mb-2"
+           role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body">
+            {{ message }}
+          </div>
+          <button type="button" class="btn-close btn-close-white me-2 m-auto"
+                  data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+
+
+<!-- ====== Footer with Gradient + Animated Wave ====== -->
+<footer class="footer-gradient text-light pt-5 position-relative overflow-hidden">
+  <!-- Wave Background -->
+  <div class="wave-container">
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="rgba(255,255,255,0.05)" d="M0,192L60,208C120,224,240,256,360,272C480,288,600,288,720,261.3C840,235,960,181,1080,176C1200,171,1320,213,1380,234.7L1440,256L1440,320L0,320Z"></path>
+    </svg>
+    <svg class="wave wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="rgba(255,255,255,0.1)" d="M0,64L60,90.7C120,117,240,171,360,197.3C480,224,600,224,720,186.7C840,149,960,75,1080,53.3C1200,32,1320,64,1380,80L1440,96L1440,320L0,320Z"></path>
+    </svg>
+  </div>
+
+  <div class="container position-relative">
+    <div class="row g-4">
+      
+      <!-- Brand -->
+      <div class="col-md-4">
+        <h2 class="fw-bold text-white">SePra Tech</h2>
+        <p class="small text-light opacity-75">
+        “Let’s create something new and amazing together by turning ideas into powerful digital experiences — innovating today, building tomorrow; design, develop, deliver with SePra, where creativity meets technology.”
+        </p>
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" class="social-icon d-flex align-items-center justify-content-center rounded-circle bg-primary" style="width:40px; height:40px;">
+            <i class="bi bi-facebook text-white"></i>
+          </a>
+          <a href="#" class="social-icon d-flex align-items-center justify-content-center rounded-circle bg-info" style="width:40px; height:40px;">
+            <i class="bi bi-twitter text-white"></i>
+          </a>
+          <a href="#" class="social-icon d-flex align-items-center justify-content-center rounded-circle bg-danger" style="width:40px; height:40px;">
+            <i class="bi bi-instagram text-white"></i>
+          </a>
+          <a href="#" class="social-icon d-flex align-items-center justify-content-center rounded-circle bg-secondary" style="width:40px; height:40px;">
+            <i class="bi bi-linkedin text-white"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-2">
+        <h5 class="fw-bold text-white mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="quick-link text-light text-decoration-none d-block mb-2">Home</a></li>
+          <li><a href="#pro" class="quick-link text-light text-decoration-none d-block mb-2">Project</a></li>
+          <li><a href="#about" class="quick-link text-light text-decoration-none d-block mb-2">About</a></li>
+          <li><a href="#contact" class="quick-link text-light text-decoration-none d-block mb-2">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-3">
+        <h5 class="fw-bold text-white mb-3">Contact</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><i class="bi bi-geo-alt-fill text-warning me-2"></i>Pune, India</li>
+          <li class="mb-2"><i class="bi bi-telephone-fill text-success me-2"></i><a href="tel:+7085472810" class="contact-link text-light text-decoration-none">+91 70854 72810</a></li>
+          <li class="mb-2"><i class="bi bi-envelope-fill text-info me-2"></i><a href="mailto:Educryst@gmail.com" class="contact-link text-light text-decoration-none">Educryst@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-3">
+        <h5 class="fw-bold text-white mb-3">Newsletter</h5>
+        <p class="small text-light opacity-75">Subscribe to get latest updates and offers.</p>
+        <form class="d-flex">
+          <input type="email" class="form-control me-2 rounded-pill" placeholder="Enter email">
+          <button class="btn btn-warning rounded-pill px-3">Go</button>
+        </form>
+      </div>
+
+    </div>
+    
+    <hr class="border-light opacity-25 my-4">
+
+    <!-- Bottom bar -->
+    <div class="text-center pb-3">
+      <p class="mb-0 small text-light opacity-75">&copy; 2025 SePraTech. All Rights Reserved. | Designed by SePraTech Team ❤️</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- JS -->
+<script>
+  const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+// Create overlay element
+const overlay = document.createElement('div');
+overlay.classList.add('overlay');
+document.body.appendChild(overlay);
+
+menuToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+  overlay.classList.toggle('active');
+  menuToggle.querySelector('i').classList.toggle('fa-bars');
+  menuToggle.querySelector('i').classList.toggle('fa-times');
+});
+
+// Close menu when clicking overlay
+overlay.addEventListener('click', () => {
+  navLinks.classList.remove('active');
+  overlay.classList.remove('active');
+  menuToggle.querySelector('i').classList.add('fa-bars');
+  menuToggle.querySelector('i').classList.remove('fa-times');
+});
+
+// Close menu when link clicked
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('active');
+    overlay.classList.remove('active');
+    menuToggle.querySelector('i').classList.add('fa-bars');
+    menuToggle.querySelector('i').classList.remove('fa-times');
+  });
+});
+
+
+  // Scroll animations
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+          if (entry.isIntersecting) entry.target.classList.add('in-view');
+      });
+  }, { threshold: 0.2 });
+
+  document.querySelectorAll('section, .card').forEach(el => observer.observe(el));
+
+  // Contact form
+  const form = document.getElementById('contactForm');
+  const successMsg = document.querySelector('.success-message');
+  form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      successMsg.style.display = 'block';
+      form.reset();
+      setTimeout(() => successMsg.style.display = 'none', 3000);
+  });
+
+  // Toast auto-hide
+   // ✅ Initialize Bootstrap Toasts automatically
+  document.addEventListener("DOMContentLoaded", function() {
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    toastElList.map(function(toastEl) {
+      var toast = new bootstrap.Toast(toastEl)
+      toast.show()
+    })
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
